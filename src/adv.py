@@ -90,7 +90,6 @@ quit = False
 
 while not quit:
     command = input("\nWhere Will you Go?\n")
-    command = command.lower().strip()[0]
 
     if command == 'n' or command == 'e' or command == 'w' or command == 's':
         print(player.move(command))
